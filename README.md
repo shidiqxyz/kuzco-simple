@@ -4,7 +4,7 @@
 Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan biaya lebih hemat.
 
 ## Baca Tulisan ini agar paham cara kerja dan apa saja yang diperlukan
-[A31](https://paragraph.com/@a31/%F0%9F%94%B0-tutorial-menjalankan-node-kuzco-tanpa-gpu-bisa-di-ram-2gb-aja).
+[Tutorial Menjalankan Node Kuzco Tanpa GPU (Bisa di RAM 2GB Aja!)](https://paragraph.com/@a31/%F0%9F%94%B0-tutorial-menjalankan-node-kuzco-tanpa-gpu-bisa-di-ram-2gb-aja)
 
 ## ⚙️ Prasyarat
 
