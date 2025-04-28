@@ -15,9 +15,13 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
 
 ## 🛠️ Langkah-langkah
 
-1. **Login ke VPS** melalui SSH.
+1. **Login ke VPS** melalui SSH. 
+   Dan tambahkan jika vps mu kentang swap ram, ini dengan 1:1 ram system.
+   ```
+   sudo fallocate -l $(grep MemTotal /proc/meminfo | awk '{print int($2/1024)"M"}') /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile
+   ```
    
-2. **Download dan Setup Script**:
+3. **Download dan Setup Script**:
 
    ```bash
    curl -O https://raw.githubusercontent.com/shidiqxyz/kuzco-simple/refs/heads/main/install.sh
@@ -25,7 +29,7 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
    ./install.sh
    ```
 
-3. **Isi Input** saat diminta:
+4. **Isi Input** saat diminta:
    API Key ViKey (Dapat ditemukan di dashboard ViKey).
    
    KUZCO_WORKER (Dapat ditemukan di dashboard Kuzco).
@@ -36,14 +40,14 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
    
    Jumlah Service (Maksimal 50). Script ini akan mengonfigurasi hingga 50 service Kuzco secara otomatis.
 
-4. **Restart DOcker**
+5. **Restart DOcker**
    Jika belum muncul instance, coba restart docker :
 
    ```
    docker restart $(docker ps -q)
    ```
 
-5. **Cek Log**:
+6. **Cek Log**:
 
    Untuk log ViKey:
 
