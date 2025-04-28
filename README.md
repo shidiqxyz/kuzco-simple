@@ -40,7 +40,7 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
    
    Jumlah Service (Maksimal 50). Script ini akan mengonfigurasi hingga 50 service Kuzco secara otomatis.
 
-5. **Restart DOcker**
+5. **Restart Docker**
    Jika belum muncul instance, coba restart docker :
 
    ```
