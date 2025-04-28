@@ -16,7 +16,7 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
 ## 🛠️ Langkah-langkah
 
 1. **Login ke VPS** melalui SSH. 
-   Dan tambahkan jika vps mu kentang swap ram, ini dengan 1:1 ram system.
+   Dan tambahan jika vps mu kentang swap ram, ini dengan 1:1 ram system.
    ```
    sudo fallocate -l $(grep MemTotal /proc/meminfo | awk '{print int($2/1024)"M"}') /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile
    ```
