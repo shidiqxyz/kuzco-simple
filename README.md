@@ -11,7 +11,7 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
 - VPS (Contabo, Vultr, DigitalOcean, dll)
 - OS: Ubuntu 20.04 / 22.04
 - Koneksi internet stabil
-- Akun di **ViKey.ai** dan **Kuzco**
+- Akun di [**ViKey.ai**](https://vikey.ai/) dan [**Kuzco**](https://inference.supply/)
 
 ## 🛠️ Langkah-langkah
 
