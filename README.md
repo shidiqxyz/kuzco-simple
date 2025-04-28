@@ -26,10 +26,16 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
    ```
 
 3. **Isi Input** saat diminta:
-   - **API Key ViKey**
-   - **KUZCO_WORKER** (dari dashboard Kuzco)
-   - **KUZCO_CODE** (dari dashboard Kuzco)
-   - **IP VPS**
+   API Key ViKey (Dapat ditemukan di dashboard ViKey).
+   
+   KUZCO_WORKER (Dapat ditemukan di dashboard Kuzco).
+   
+   KUZCO_CODE (Dapat ditemukan di dashboard Kuzco).
+   
+   IP VPS (Alamat IP VPS Anda).
+   
+   Jumlah Service (Maksimal 50). Script ini akan mengonfigurasi hingga 50 service Kuzco secara otomatis.
+
 
 4. **Cek Log**:
 
