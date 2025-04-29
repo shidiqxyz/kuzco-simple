@@ -47,7 +47,12 @@ Dengan ViKey inference, kamu bisa proses task seperti menggunakan GPU dengan bia
    docker restart $(docker ps -q)
    ```
 
-6. **Cek Log**:
+6. **Delete Container**
+   ```
+   docker rm -f $(docker ps -aq)
+   ```
+   
+7. **Cek Log**:
 
    Untuk log ViKey:
 
